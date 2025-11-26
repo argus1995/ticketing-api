@@ -69,32 +69,32 @@ php artisan serve
 
 ## 🔑 Authentication Endpoints
 
-  Method   Endpoint        Description
-  -------- --------------- ---------------
-  POST     /api/register   Register user
-  POST     /api/login      Login user
-  POST     /api/logout     Logout user
+| Method | Endpoint       | Description    |
+|--------|----------------|----------------|
+| POST   | /api/register  | Register user  |
+| POST   | /api/login     | Login user     |
+| POST   | /api/logout    | Logout user    |
 
 ------------------------------------------------------------------------
 
 ## 🎫 Ticket Endpoints
 
-  Method   Endpoint                Description
-  -------- ----------------------- -----------------
-  GET      /api/tickets            Get all tickets
-  GET      /api/tickets/{ticket}   Get one ticket
-  POST     /api/tickets            Create ticket
-  PATCH    /api/tickets/{ticket}   Update ticket
-  DELETE   /api/tickets/{ticket}   Delete ticket
+  | Method   | Endpoint                | Description       | 
+  | -------- | ----------------------- | ----------------- | 
+  | GET      | /api/tickets            | Get all tickets   | 
+  | GET      | /api/tickets/{ticket}   | Get one ticket    | 
+  | POST     | /api/tickets            | Create ticket     | 
+  | PATCH    | /api/tickets/{ticket}   | Update ticket     | 
+  | DELETE   | /api/tickets/{ticket}   | Delete ticket     | 
 
 ------------------------------------------------------------------------
 
 ## 💬 Comment Endpoints
 
-  Method   Endpoint                         Description
-  -------- -------------------------------- --------------------------
-  POST     /api/tickets/{ticket}/comments   Add a comment
-  GET      /api/tickets/{ticket}/comments   List comments for ticket
+ | Method   | Endpoint                         | Description                | 
+ | -------- | -------------------------------- | -------------------------- | 
+ | POST     | /api/tickets/{ticket}/comments   | Add a comment              | 
+ | GET      | /api/tickets/{ticket}/comments   | List comments for ticket   | 
 
 ------------------------------------------------------------------------
 
